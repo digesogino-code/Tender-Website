@@ -27,7 +27,11 @@ export default function DiamondDetail() {
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
       <div className="grid lg:grid-cols-2 gap-12">
-        <img src={diamond.image} alt={diamond.shape} className="rounded-3xl w-full" />
+        <img 
+          src={diamond.image} 
+          alt={diamond.shape} 
+          className="rounded-3xl w-full" 
+        />
 
         <div>
           <h1 className="text-5xl font-serif mb-4">{diamond.shape} {diamond.carat}ct</h1>
@@ -40,4 +44,11 @@ export default function DiamondDetail() {
             <p><span className="text-zinc-400">Certification:</span> {diamond.certification}</p>
           </div>
 
-          <button className="mt-12 w-full bg-white text-black
+          <button className="mt-12 w-full bg-white text-black py-6 rounded-3xl text-xl font-semibold hover:bg-cyan-400 transition">
+            Buy Now • Secure Trade
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
