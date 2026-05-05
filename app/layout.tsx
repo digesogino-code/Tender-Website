@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Tender — Diamond Marketplace',
-  description: 'Buy, sell & trade certified diamonds with confidence.',
+  description: 'Buy, sell & trade certified diamonds',
 };
 
 export default function RootLayout({
